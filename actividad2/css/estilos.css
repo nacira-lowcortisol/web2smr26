@@ -1,0 +1,32 @@
+th{
+	color: indigo;
+	background-color: grey;
+	text-align: center;
+}
+td{
+	text-align: center;
+}
+.sistemas{
+	background-color: greenyellow;
+}
+.seguridad{
+	background-color: mediumaquamarine;
+}
+.appw{
+	background-color: mediumpurple;
+}
+.servicios{
+	background-color: mediumorchid;
+}
+.ingles{
+	background-color: mediumturquoise;
+}
+.ipe{
+	background-color: pink;
+}
+.proyecto{
+	background-color: teal;
+}
+.prog{
+	background-color: mediumseagreen;
+}
