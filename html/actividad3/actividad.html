@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario de prueba de HTML5</title>
+</head>
+<body>
+	<h1>Controles de formulario</h1>
+	<form action="" method="get">
+		<fieldset>
+			<legend>Datos personales</legend>
+			<p>
+			<label for="tnombre">Nombre:</label>
+			<input type="text" name="tnombre" id="tnombre" required autofocus>
+			</p>
+			<p>
+			<label for="inpemail">Correo electrónico:</label>
+			<input type="email" name="inpemail" id="inpemail" required><br>
+			</p>
+			<p>
+			<label for="turl">URL</label>
+			<input type="text" name="turl" id="turl" placeholder="Insterla la URL de tu página web" size="90"><br>
+			</p>
+			<p>
+			<label for="selcomun">Ciudad</label>
+			<select id="selcomun">
+				<option value="SE">Sevilla</option>
+				<option value="CO">Córdoba</option>
+				<option value="GR">Granada</option>
+				<option value="MA">Málaga</option>
+				<option value="JA">Jaén</option>
+				<option value="HU">Huelva</option>
+				<option value="AL">Almería</option>
+				<option value="CA">Cádiz</option>
+			</select>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Otros datos</legend>
+			<p>
+			<label for="selfech">Fecha:</label>
+			<input type="date"><br>
+			</p>
+			<p>
+			<label for="seltiemp">Tiempo:</label>
+			<input type="time" id="seltiemp"><br>
+			</p>
+			<p>
+			<label for="selfechtiemp">Fecha y hora</label>
+			<input type="datetime-local"><br>
+			</p>
+			<p>
+			<label for="txtmes">Mes:</label>
+			<input type="month" id="selmes"><br>
+			</p>
+			<p>
+			<label for="txtsem">Semana:</label>
+			<input type="week" id="selsem"><br>
+			</p>
+			<p>
+			<label for="txtnum">Número (min -10 max 10):</label>
+			<input type="number" id="txtnum" min="-10" max="10" value="0"><br>
+			</p>
+			<p>
+			<label for="txttel">Teléfono:</label>
+			<input type="tel" id="txttel"><br>
+			</p>
+			<p>
+			<label for="trmbusq">Término de búsqueda:</label>
+			<input type="search" id="trmbusq"><br>
+			</p>
+			<p>
+			<label for="selcolor">Color favorito:</label>
+			<input type="color">
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Otros controles</legend>
+			<p>
+			<label>Aficiones</label>
+
+			<input type="checkbox" id="chckcine" checked>
+			<label for="chckcine">Cine</label>
+			
+			<input type="checkbox" id="chckdep">
+			<label for="chckdep">Deporte</label>
+			</p>
+			<p>
+			<label>Forma de pago</label><br>
+			
+			<input type="radio" id="visa" name="formpago" value="V">
+  			<label for="visa">Visa</label>
+  			
+  			<input type="radio" id="amex" name="formpago" value="A">
+  			<label for="amex">American Express</label>
+  			
+  			<input type="radio" id="mstr" name="formpago" value="M">
+  			<label for="mstr">MasterCard</label>
+  			</p>
+		</fieldset>
+		 <input type="submit" id="btnEnvio" value="Enviar">
+		  <input type="reset" id="btnBorrar" value="Borrar">
+	</form>
+</body>
+</html>

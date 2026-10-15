@@ -1,0 +1,35 @@
+body{
+	background: lightgray;
+	margin: 10px;
+	font-family:sans-serif;
+}
+h1{
+	text-align: center;
+	font-size: 300%;
+	letter-spacing: 10px;
+}
+h2{
+	background: gray;
+	color: white;
+}
+.rojo{
+	color: red;
+	font-style: italic;
+}
+.blanco{
+	background: white;
+	font-weight: bold;
+}
+.texto{
+	margin-right: 10%;
+	margin-left: 10%;
+	text-indent: 3em;
+	text-align: justify;
+}
+img{
+	margin-right: 10px;
+	scroll-margin-bottom: 10px;
+	width: 106;
+	height: 150;
+	float: left;
+}
