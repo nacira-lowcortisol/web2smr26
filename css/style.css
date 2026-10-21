@@ -1,0 +1,34 @@
+h1{
+	text-align: center;
+	font-size: 300%;
+	color: #e0def4;
+}
+h2{
+	color: #e0def4;
+}
+p{
+	color: #e0def4;
+}
+body{
+	background-color: #191724;
+}
+.seccion{
+	border-style: solid;
+	border-color: #908caa;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 10px;
+}
+a{
+	color:#c4a7e7;
+}
+p.seccion{
+	text-align: center;
+}
+li{
+	list-style-type: none;
+}
+img{
+	width:162px;
+	height: 108px;
+}

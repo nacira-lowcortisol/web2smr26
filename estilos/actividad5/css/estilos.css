@@ -26,6 +26,11 @@ h2{
 	text-indent: 3em;
 	text-align: justify;
 }
+.txtimg{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
 img{
 	margin-right: 10px;
 	scroll-margin-bottom: 10px;
