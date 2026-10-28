@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+	color:blue;
+	font-family:Audiowide;
+}
+body{
+	background-color: khaki;
+}
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: peachpuff;
+}
+
+ul li {
+  	float: left;
+}
+
+ul li a {
+  	display: block;
+  
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+ul li a:hover {
+  	color: red;
+  	background-color: white;
+}
+#destacado{
+	border: dashed;
+	border-color: darkorange;
+	background-color: lightyellow;
+	padding: 1%;
+}
