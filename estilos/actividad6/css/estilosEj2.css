@@ -58,12 +58,20 @@ p.caja4{
 	border:solid;
 	position:absolute;
 	right:0;
-	top: 50%;
+	top: 40%;
 	width:40%;
+	border: silver 20px solid;
+  	border-width: 50px 80px 20px 80px;
+  	border-image-source: url("../img/ventana.png");
+  	border-image-slice: 50 80 20 80;
 }
 .caja6{
 	position:absolute;
 	right:0;
 	width:40%;
 	top: 100%;
+	border: silver 40px solid;
+  	border-image-source: url("../img/hormigas.png");
+  	border-image-slice: 70;
+  	border-image-repeat: stretch;
 }
