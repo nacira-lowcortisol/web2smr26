@@ -1,11 +1,21 @@
-h1{
+*{
+	box-sizing:border-box;
+}
+body{
+	margin: 0 auto;
+	background-color: khaki;
+}
+
+p{
+	font-family: arial;
+}
+
+header h1{
 	text-align: center;
 	color:blue;
 	font-family:Audiowide;
 }
-body{
-	background-color: khaki;
-}
+
 ul {
   	list-style-type: none;
   	margin: 0;
@@ -30,9 +40,64 @@ ul li a:hover {
   	color: red;
   	background-color: white;
 }
+
 #destacado{
 	border: dashed;
 	border-color: darkorange;
 	background-color: lightyellow;
 	padding: 1%;
+}
+
+.caja{
+	border-style: solid;
+	border-color: blue;
+	width: 30%;
+	float: left;
+	position: relative;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.caja p{
+	color:green;
+}
+
+.caja p:first-child {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.caja p:nth-of-type(2) {
+	clear: both;
+	padding: 5px;
+}
+
+.izquierda{
+	float:left;
+}
+
+.derecha{
+	float: right;
+}
+
+img{
+	margin: 3%;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+}
+
+footer p:first-child{
+	font-weight: bold;
+	color:dimgray;
+}
+
+footer p{
+	color:darkgray;
+}
+
+aside{
+	text-align: center;
 }

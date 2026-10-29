@@ -21,13 +21,16 @@ body{
 }
 .seccion{
 	border-style: solid;
-	border-color: #908caa;
+	border-color: #26233a;
 	border-width: 2px;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+.seccion:hover{
+	border-color:  #c4a7e7;
 }
 a{
 	color:#c4a7e7;
@@ -44,3 +47,5 @@ img{
 	mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 100%);
 	align-self: center;
 }
+
+
